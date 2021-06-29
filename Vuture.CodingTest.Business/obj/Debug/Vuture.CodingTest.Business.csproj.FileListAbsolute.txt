@@ -1,0 +1,6 @@
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\bin\Debug\Vuture.CodingTest.Business.dll
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\bin\Debug\Vuture.CodingTest.Business.pdb
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\obj\Debug\Vuture.CodingTest.Business.csproj.CoreCompileInputs.cache
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\obj\Debug\Vuture.CodingTest.Business.dll
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\obj\Debug\Vuture.CodingTest.Business.pdb
+C:\Users\Raluca\Desktop\Vuture\dot-net-code-test-master\Vuture.CodingTest\Vuture.CodingTest.Business\obj\Debug\Vuture.CodingTest.Business.csprojAssemblyReference.cache
