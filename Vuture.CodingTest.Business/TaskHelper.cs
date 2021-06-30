@@ -32,10 +32,10 @@ namespace Vuture.CodingTest.Business
         public bool RunTaskTwo()
         {
             Console.Write("\n Please choose TEXT:  ");
-            string text = Console.ReadLine().Trim();
-            //text = Regex.Replace(text, @"[^a-z]+", "");
+            string text = Console.ReadLine().Trim().ToLower();
+            text = Regex.Replace(text, @"[^a-z]+", "");
             bool result = HelperFunctions.IsPalindromeIterative(text);
-            Console.WriteLine("\n  ITERATIVE OUTPUT: " + result);
+            Console.WriteLine("\n  ITERATIVE OUTPUT: " + HelperFunctions.IsPalindromeIterative(text));
             Console.WriteLine("\n  RECURSIVE OUTPUT: " + HelperFunctions.IsPalindrome(text));
             Console.ReadKey();
             return result;
@@ -86,7 +86,7 @@ namespace Vuture.CodingTest.Business
             {
                 string test = testWords[i].ToLower();
                 test = Regex.Replace(test, @"[^a-z]+", "");
-                if (HelperFunctions.IsPalindrome(testWords[i]))
+                if (HelperFunctions.IsPalindrome(test))
                 {
                     Console.WriteLine(test);
                     resultWords[i] = HelperFunctions.CensorWordWithRegex(testWords[i]);
