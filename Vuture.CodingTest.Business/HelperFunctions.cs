@@ -32,7 +32,8 @@ namespace Vuture.CodingTest.Business
                 return true;
             }
              string reversed = Reverse(input);
-             if ( string.Compare(input,reversed,true) == 0)
+           //  if ( string.Compare(input,reversed,true) == 0) - I modified this last minute to use the compare function to ignore the case, but it was working before with the below version
+            if (input == reversed)
             {
                 return true;
             }
@@ -54,7 +55,8 @@ namespace Vuture.CodingTest.Business
                 return true;
             }
            
-            if (string.Compare(input[left].ToString(),input[right].ToString(), true) != 0 )
+           // if (string.Compare(input[left].ToString(),input[right].ToString(), true) != 0 )
+             if (input[left] != input[right])
             {
                 return false;
             }
